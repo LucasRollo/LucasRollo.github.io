@@ -1,0 +1,17 @@
+#myname{
+    text-align: center;
+}
+
+#projectcards{
+    display: flex;
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 1px;
+    border: 1px solid black;
+    max-width: 20%;
+    box-shadow: 2px 2px 2px;
+    margin: 12px;
+    padding: 24px;
+}
