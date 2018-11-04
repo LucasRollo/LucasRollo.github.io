@@ -1,50 +1,61 @@
 @font-face {
     font-family: "Arvo";
-    src: url("c:/Users/Lucas/Documents/PersonalWebsite/lucasrollo.github.io/fonts/arvo/Arvo-Regular.ttf");
-    src: 
-    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.woff") format("woff"),
-    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.otf") format("opentype"),
-    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.svg#filename") format("svg");
-    }
+    src: url("fonts/arvo/Arvo-Regular.ttf");
+    src: url("fonts/arvo/Arvo-Regular.woff2") format(woff2),
+    url("fonts/arvo/Arvo-Regular.woff") format(woff);
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/bebas_neue.ttf");
+    src: url("fonts/bebas_neue.woff2") format(woff2),
+    url("fonts/bebas_neue.woff") format(woff);
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/merriweather-sans/MerriweatherSans-Bold.ttf");
+    src: url("fonts/merriweather-sans/MerriweatherSans-Bold.woff2") format(woff2),
+    url("fonts/merriweather-sans/MerriweatherSans-Bold.woff") format(woff);
+}
 
-
-    
-
-    
 #profilepic{
     padding-top: 45px;
     text-align: center;
     border-radius: 80px;
     background: 600px solid #ffffff;
-
+    line-height: 10%;
+    margin-bottom: 0px;
 }
 
 #myname{
     text-align: center;
     font-family: "Bebas Neue";
     font-size: 150%;
+    
+
 }
 
 #aboutme{
+    font-family: "Arvo";
     text-align: left;
     padding-left: 27%;
     padding-right: 24%;
+    padding-bottom: 25px;
     color: #838383;
-    font-family: "Arvo";
-    font-weight: bold;
-    font-size: 85%
+    font-size: 70%
+    
 }
 
+#projects{
+    font-family: "Bebas Neue";
+    font-size: 140%;
+    margin-left: 3%;
+}
 
 #projectcards{
-    display: flex;
-}
-
-#footer{
     text-align: center;
-    font-family: "merriweather-sans";
-    color: #838383;
-
+    display: flex;
+    font-family: "Arvo";
+    margin-left: 29%;
 }
 
 .card{
@@ -52,8 +63,38 @@
     flex-basis: 1px;
     border: 1px solid black;
     max-width: 20%;
-    box-shadow: 2px 2px 2px;
     margin: 12px;
     padding: 24px;
 }
 
+#skills{
+    font-family: "Bebas Neue";
+    font-size: 140%;
+    margin-left: 3%;
+}
+
+#skillsecs{
+    display: flex;
+    margin-left: 5%;
+}
+
+.sec{
+    font-family: "Arvo";
+    padding-left: 85px;
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+#hobbies{
+    margin-left: 3%;
+    font-family: "Bebas Neue";
+    font-size: 140%;
+    
+}
+
+#footer{
+    text-align: center;
+    font-family: "arvo";
+    color: #838383;
+
+}
