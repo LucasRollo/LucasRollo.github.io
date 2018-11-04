@@ -1,9 +1,50 @@
+@font-face {
+    font-family: "Arvo";
+    src: url("c:/Users/Lucas/Documents/PersonalWebsite/lucasrollo.github.io/fonts/arvo/Arvo-Regular.ttf");
+    src: 
+    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.woff") format("woff"),
+    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.otf") format("opentype"),
+    url("lucasrollo.github.io/fonts/Arvo/Arvo-Regular.svg#filename") format("svg");
+    }
+
+
+    
+
+    
+#profilepic{
+    padding-top: 45px;
+    text-align: center;
+    border-radius: 80px;
+    background: 600px solid #ffffff;
+
+}
+
 #myname{
     text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 150%;
 }
+
+#aboutme{
+    text-align: left;
+    padding-left: 27%;
+    padding-right: 24%;
+    color: #838383;
+    font-family: "Arvo";
+    font-weight: bold;
+    font-size: 85%
+}
+
 
 #projectcards{
     display: flex;
+}
+
+#footer{
+    text-align: center;
+    font-family: "merriweather-sans";
+    color: #838383;
+
 }
 
 .card{
@@ -15,3 +56,4 @@
     margin: 12px;
     padding: 24px;
 }
+
