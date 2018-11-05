@@ -18,7 +18,7 @@
 }
 
 #profilepic{
-    padding-top: 45px;
+    padding-top: 155px;
     text-align: center;
     border-radius: 80px;
     background: 600px solid #ffffff;
@@ -28,6 +28,7 @@
 #myname{
     text-align: center;
     font-family: "Bebas Neue";
+    color: #41688c;
     font-size: 150%;
     
 
@@ -36,8 +37,9 @@
 #aboutme{
     font-family: "Arvo";
     text-align: left;
-    padding-left: 27%;
+    padding-left: 27.5%;
     padding-right: 24%;
+    padding-bottom: 130px;
     color: #838383;
     font-size: 70%
     
@@ -48,6 +50,7 @@
     font-size: 140%;
     margin-left: 15%;
     margin-top: 100px;
+    color: #6b7177;
 }
 
 #projectcards{
@@ -68,6 +71,7 @@
 
 #skills{
     font-family: "Bebas Neue";
+    color: #6b7177;
     font-size: 140%;
     margin-left: 15%;
     margin-top: 100px;
@@ -87,6 +91,7 @@
 #hobbies{
     margin-left: 15%;
     font-family: "Bebas Neue";
+    color: #6b7177;
     font-size: 140%;
     margin-top: 100px;
 
