@@ -18,11 +18,17 @@
 }
 
 #profilepic{
-    padding-top: 155px;
+    padding-top: 148px;
     text-align: center;
     border-radius: 80px;
     background: 600px solid #ffffff;
     line-height: 10%;
+
+    text-align: center;
+    font-family: "Bebas Neue";
+    color: #41688c;
+    font-size: 180%;
+    
     }
 
 #myname{
@@ -36,12 +42,14 @@
 
 #aboutme{
     font-family: "Arvo";
-    text-align: left;
-    padding-left: 27.5%;
-    padding-right: 24%;
+    text-align: center;
+    padding-left: 19%;
+    padding-right: 19%;
     padding-bottom: 130px;
     color: #838383;
-    font-size: 70%
+    font-size: 80%;
+    margin-top: 60px;
+    
     
 }
 
