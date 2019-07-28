@@ -23,9 +23,6 @@ hr {
   width: 80%;
 }
 
-body{
-  font-family: "AvenirNext-DemiBold";
-}
 
 /* h1, h2{
   font-family: "Questrial", sans-serif;
@@ -40,14 +37,16 @@ p, h4, h5, h6{
 } */
 
 .topSpacing{
-  margin-top: 160px;
-  margin-bottom: 80px;
+  margin-top: 140px;
+  margin-bottom: 65px;
+  max-width: 55em;
 
 }
 
 .sectionSpacing{
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+  max-width: 55em;
 }
 
 #footer {
@@ -69,7 +68,7 @@ p, h4, h5, h6{
 
 .navbar-brand {
   font-size: 2rem;
-   font-family: 'AvenirNext-DemiBold', sans-serif;
+   font-family: 'Quicksand', sans-serif;
 }
 
 /* Temp comment */
@@ -169,7 +168,14 @@ a:active {
   transform: scaleX(1);
 }
 
+.title{
+  padding-bottom: 4em;
+}
 
+.skillCard{
+  padding-bottom: 35px;
+
+}
 
 
 
@@ -210,6 +216,10 @@ a:active {
   .sectionSpacing{
     margin-top: 60px;
     margin-bottom: 80px;
+  }
+
+  .title{
+    padding-bottom: 2em;
   }
 
 }
